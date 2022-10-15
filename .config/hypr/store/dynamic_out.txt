@@ -1,1 +1,1 @@
-{"class": "none", "text": ""}
+{"class": "paused", "text": "\u25b6 DistroTube - Git Bare Repository - A Better Way To Manage Dotfiles (13:22/16:55) ", "tooltip": "Git Bare Repository - A Better Way To Manage Dotfiles\nby DistroTube\n(chromium.instance2159510)"}
