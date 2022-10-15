@@ -148,11 +148,15 @@ alias vim="env -u WAYLAND_DISPLAY lvim-gui"
 alias lvim-gui="env -u WAYLAND_DISPLAY lvim-gui"
 # emacs
 alias emacs="emacsclient --create-frame --alternate-editor="""
+#Changing "cat" to "bat"
+alias cat='bat'
+#Using "fzf" with "bat"
+alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 # Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias ls='exa -al --icons --color=always --group-directories-first' # my preferred listing
+alias la='exa -a --icons --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --icons --color=always --group-directories-first'  # long format
+alias lt='exa -aT --icons --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
 # confirm before overwriting something
